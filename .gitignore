@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Docker volumes / database
+mysql_data/
+docker-data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Linux temporary files
+*.swp
