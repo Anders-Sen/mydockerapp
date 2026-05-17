@@ -63,7 +63,7 @@ $conn->close();
 </head>
 <body>
 
-<h1>H</h1>
+<h1>HelloWorld</h1>
 <h1>Login Form</h1>
 
 <form method="POST">
