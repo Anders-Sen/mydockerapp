@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     } else {
 
-        $message = "User Not Found";
+        $message = "User Can't Found";
     }
 
     $stmt->close();
