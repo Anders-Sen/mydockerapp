@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     } else {
 
-        $message = "User Can't Found";
+        $message = "User Not Found";
     }
 
     $stmt->close();
@@ -63,6 +63,7 @@ $conn->close();
 </head>
 <body>
 
+<h1>HelloWorld</h1>
 <h1>Login Form</h1>
 
 <form method="POST">
