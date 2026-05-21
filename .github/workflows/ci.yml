@@ -17,11 +17,15 @@ jobs:
           node-version: 22
 
       - run: npm install
+        working-directory: ./app
 
       - run: npm run lint
+        working-directory: ./app
 
       - run: npm test
+        working-directory: ./app
 
       - run: npm run build
+        working-directory: ./app
       
       - run: echo "CI Success"
